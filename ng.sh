@@ -20,7 +20,7 @@ read opcao
 case $opcao in
 y)
 echo
-echo "Downloading Termux-ngrok..."
+echo "Скачивание Ngrok..."
 case `dpkg --print-architecture` in
 aarch64)
     architectureURL="arm64" ;;
@@ -51,12 +51,12 @@ echo "${k}██║╚██╗██║██║   ██║██╔══█�
 echo "${k}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
 echo "${k}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
 echo
-echo "Exemplo de comando (ngrok http 80\nOu ngrok para ajuda)"
+echo "Пример команды (ngrok http 80\nOu ngrok para ajuda)"
 ;;
 
 n)
 clear
-echo "Ngrok não instalado :("
+echo "Ngroк не установлено :("
 echo
 esac
 
